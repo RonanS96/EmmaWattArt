@@ -17,7 +17,7 @@
 <?php
   $to = "ronan1874@aol.co.uk";
   $headers = "From: $email_from \r\n";
-  $headers .= "Reply-To: $sender \r\n";
+  $headers = "Reply-To: $sender \r\n";
 
   mail($to,$email_subject,$email_body,$headers);
 ?>
