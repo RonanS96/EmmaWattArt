@@ -10,7 +10,7 @@
 
 <?php
   $email_from     = 'Emma Watt Art';
-  $email_subject  = "New message from Emma Watt art";
+  $email_subject  = "New message from Emma Watt Art";
   $email_body     = "You have recieved a new message from " . $name . ":\n" . $message . ".\n"
 ?>
 
@@ -20,4 +20,9 @@
   $headers .= "Reply-To: $sender \r\n";
 
   mail($to,$email_subject,$email_body,$headers);
+?>
+
+<?php
+  echo "Email sent! ";
+  echo "<a href="../about.html">Return to site</a>"
 ?>
