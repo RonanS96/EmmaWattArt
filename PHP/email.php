@@ -21,8 +21,3 @@
 
   mail($to,$email_subject,$email_body,$headers);
 ?>
-
-<?php
-  echo "Email sent! ";
-  echo "<a href=\"../about.html\">Return to site</a>";
-?>
