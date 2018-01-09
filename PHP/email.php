@@ -24,5 +24,5 @@
 
 <?php
   echo "Email sent! ";
-  echo "<a href="../about.html">Return to site</a>";
+  echo "<a href=\"../about.html\">Return to site</a>";
 ?>
