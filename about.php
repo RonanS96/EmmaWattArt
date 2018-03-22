@@ -13,6 +13,15 @@
       footer {font-family: "Raleway", Arial, sans-serif}
       #title{font-family: "Raleway", Arial, sans-serif; font-size: 30px;}
       .w3-row img {margin-bottom: -8px}
+      .form{
+        margin:auto;
+        width:60%;
+      }
+      @media screen and (max-width: 600px){
+        .form{
+          width: 90%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -27,11 +36,11 @@
     </header>
 
     <!-- Footer / About Section -->
-    <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+    <footer class="w3-light-grey w3-padding-16 w3-center" id="about">
       <h1 style="font-family: Raleway">Artist Information</h1>
       <h2 style="font-family: Raleway">-</h2>
-      <img src="images/Shambles2.jpg" class="w3-image w3-padding-32" width="300" height="300">
-      <form method="post" name="emailform" style="margin:auto;width:60%" action="PHP/email.php" target="_blank">
+      <img src="images/Shambles2.jpg" class="w3-image w3-padding-64" width="300" height="300">
+      <form class="form" method="post" name="emailform" action="PHP/email.php" target="_blank">
         <p align="left">
           My interest in art was from an early age, where it was a mixture of inspirations from people such as my mother and
           gran portraying their creative skills in contrasting ways. My mother loved to draw & paint, whereas my gran loved
@@ -72,15 +81,15 @@
               }
           }
         ?>
-        <div class="w3-section">
+        <div class="w3-section" id="input-box">
           <label><b>Name</b></label>
           <input class="w3-input w3-border" type="text" required name="Name">
         </div>
-        <div class="w3-section">
+        <div class="w3-section" id="input-box">
           <label><b>Your Email</b></label>
           <input class="w3-input w3-border" type="email" required name="Email">
         </div>
-        <div class="w3-section">
+        <div class="w3-section" id="input-box">
           <label><b>Message</b></label>
           <textarea class="w3-input w3-border" required name="Message"></textarea>
         </div>
