@@ -16,11 +16,15 @@
     </style>
   </head>
   <body>
+    <?php
+      session_start();
+      session_destroy();
+    ?>
     <!-- Header -->
     <header class="w3-container w3-xlarge w3-padding-24">
       <a class="w3-left w3-button w3-white" id="title"><b>Emma Watt Art</b></a>
-      <a href="about.html" class="w3-right w3-button w3-white">About</a>
-      <a href="portfolio.html" class="w3-right w3-button w3-white">Portfolio</a>
+      <a href="about.php" class="w3-right w3-button w3-white">About</a>
+      <a href="portfolio.php" class="w3-right w3-button w3-white">Portfolio</a>
     </header>
 
     <!-- !PAGE CONTENT! -->

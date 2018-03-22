@@ -19,9 +19,9 @@
   <body>
     <!-- Header -->
     <header class="w3-container w3-xlarge w3-padding-24">
-      <a href="../home.html" class="w3-left w3-button w3-white" id="title"><b>Emma Watt Art</b></a>
-      <a href="../about.html" class="w3-right w3-button w3-white">About</a>
-      <a href="../portfolio.html" class="w3-right w3-button w3-white">Portfolio</a>
+      <a href="../home.php" class="w3-left w3-button w3-white" id="title"><b>Emma Watt Art</b></a>
+      <a href="../about.php" class="w3-right w3-button w3-white">About</a>
+      <a href="../portfolio.php" class="w3-right w3-button w3-white">Portfolio</a>
     </header>
 
     <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
